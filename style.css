@@ -1,0 +1,32 @@
+body{
+    border: 5px solid black;
+    font-size: 20px;
+}
+
+header{
+    margin:0;
+    padding:20px;
+    text-align: left;
+    background-color: royalblue;
+    color:#fff;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+.card-body{
+    border:none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color:aqua;
+    margin:5px;
+    margin-top:80px;
+    width:300px;
+    height:auto;
+    text-align: left;
+    padding:15px;
+}
