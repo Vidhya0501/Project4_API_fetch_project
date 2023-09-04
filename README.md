@@ -7,3 +7,5 @@ API fetch project using Advance Javascript.
 4. After that using json() to convert API data into array of objects.
 5. "for loop" is used to traverse the array and print all users data in separate cards using bootstrap card.
 6. CSS flex property is used to display the cards properly.
+7. We write this entire logic inside asyn-await method it'll make the function to wait until promise is settled.
+8. And also try-catch block is used to handle errors, that is rejected state of promise.
