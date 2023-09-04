@@ -5,7 +5,7 @@ const sec=document.createElement("section");
 
 async function app(){
   try{
-    const result=fetch("https://jsonplaceholder.typicode.com/users");
+    const result=await fetch("https://jsonplaceholder.typicode.com/users");
     result
       .then((data) => data.json())
       .then((data1) => {
