@@ -15,9 +15,10 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: flex-start;
 }
+
 .card-body{
     border:none;
     border-radius: 15px;
